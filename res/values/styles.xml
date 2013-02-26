@@ -377,4 +377,6 @@
     <style name="FragmentActionBarPadding">
         <item name="android:paddingBottom">?android:attr/actionBarSize</item>
     </style>
+
+    <style name="Theme.Holo.Datepicker.Dialog" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"/>
 </resources>
