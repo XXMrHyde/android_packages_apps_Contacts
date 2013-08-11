@@ -39,4 +39,7 @@
     <!--  Color of the vertical stripe that goes on the left of a block quote inside a stream item -->
     <color name="stream_item_stripe_color">#CCCCCC</color>
 
+    <!--  Color of the account header background in the editor -->
+    <color name="editor_account_header_bg_color">#EEEEEE</color>
+
 </resources>

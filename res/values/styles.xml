@@ -225,4 +225,5 @@
         <item name="android:textSize">18sp</item>
     </style>
 
+    <style name="Theme.Holo.Datepicker.Dialog" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"/> 
 </resources>
