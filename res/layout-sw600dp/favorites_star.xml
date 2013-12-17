@@ -24,5 +24,5 @@
     android:layout_height="48dip"
     android:scaleType="center"
     android:background="?android:attr/selectableItemBackground"
-    android:src="@drawable/btn_star_off_normal_holo_light"
+    android:src="@drawable/btn_star_off_normal_holo_dark"
     tools:ignore="ContentDescription" />

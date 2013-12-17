@@ -105,7 +105,7 @@
                 android:layout_width="0dip"
                 android:layout_height="match_parent"
                 android:layout_weight="7"
-                android:background="@drawable/panel_favorites_holo_light">
+                android:background="@drawable/panel_favorites_holo_dark">
 
                 <fragment
                     android:id="@+id/favorites_fragment"
@@ -138,7 +138,7 @@
         android:id="@+id/contacts_unavailable_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_holo_light"
+        android:background="@drawable/background_holo_dark"
         android:visibility="gone">
 
         <FrameLayout

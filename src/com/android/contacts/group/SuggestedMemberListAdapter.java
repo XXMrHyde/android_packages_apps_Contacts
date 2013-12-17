@@ -143,7 +143,7 @@ public class SuggestedMemberListAdapter extends ArrayAdapter<SuggestedMember> {
         }
         byte[] byteArray = member.getPhotoByteArray();
         if (byteArray == null) {
-            icon.setImageResource(R.drawable.ic_contact_picture_holo_light);
+            icon.setImageResource(R.drawable.ic_contact_picture_holo_dark);
         } else {
             Bitmap bitmap = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.length);
             icon.setImageBitmap(bitmap);

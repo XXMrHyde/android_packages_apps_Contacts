@@ -204,10 +204,10 @@ public class DataAction implements Action {
                         mAlternateIntent = new Intent(
                                 Intent.ACTION_SENDTO, Uri.parse("xmpp:" + data + "?call"));
                         if (isVideoChatCapable) {
-                            mAlternateIconRes = R.drawable.sym_action_videochat_holo_light;
+                            mAlternateIconRes = R.drawable.sym_action_videochat_holo_dark;
                             mAlternateIconDescriptionRes = R.string.video_chat;
                         } else {
-                            mAlternateIconRes = R.drawable.sym_action_audiochat_holo_light;
+                            mAlternateIconRes = R.drawable.sym_action_audiochat_holo_dark;
                             mAlternateIconDescriptionRes = R.string.audio_chat;
                         }
                     }

@@ -35,7 +35,7 @@
             android:layout_marginStart="5dip"
             android:layout_marginEnd="11dip"
             android:focusable="false"
-            android:src="@drawable/ic_add_contact_holo_light"
+            android:src="@drawable/ic_add_contact_holo_dark"
             android:scaleType="fitCenter"
             />
     <TextView android:id="@+id/title"

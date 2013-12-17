@@ -147,8 +147,8 @@ public class TextFieldsEditorView extends LabeledEditorView {
         if (shouldExist) {
             mExpansionViewContainer.setVisibility(View.VISIBLE);
             mExpansionView.setImageResource(collapsed
-                    ? R.drawable.ic_menu_expander_minimized_holo_light
-                    : R.drawable.ic_menu_expander_maximized_holo_light);
+                    ? R.drawable.ic_menu_expander_minimized_holo_dark
+                    : R.drawable.ic_menu_expander_maximized_holo_dark);
         } else {
             mExpansionViewContainer.setVisibility(View.GONE);
         }

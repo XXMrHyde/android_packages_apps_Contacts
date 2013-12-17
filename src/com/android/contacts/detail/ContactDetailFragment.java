@@ -1176,7 +1176,7 @@ public class ContactDetailFragment extends Fragment implements FragmentKeyListen
         private AddConnectionViewEntry(Context context, View.OnClickListener onClickListener) {
             super(ViewAdapter.VIEW_TYPE_ADD_CONNECTION_ENTRY);
             this.mIcon = context.getResources().getDrawable(
-                    R.drawable.ic_menu_add_field_holo_light);
+                    R.drawable.ic_menu_add_field_holo_dark);
             this.mLabel = context.getString(R.string.add_connection_button);
             this.mOnClickListener = onClickListener;
             this.isEnabled = true;
@@ -1725,11 +1725,11 @@ public class ContactDetailFragment extends Fragment implements FragmentKeyListen
                 }
             } else if ((entry.chatCapability & Im.CAPABILITY_HAS_CAMERA) != 0) {
                 secondaryActionIcon =
-                        resources.getDrawable(R.drawable.sym_action_videochat_holo_light);
+                        resources.getDrawable(R.drawable.sym_action_videochat_holo_dark);
                 secondaryActionDescription = resources.getString(R.string.video_chat);
             } else if ((entry.chatCapability & Im.CAPABILITY_HAS_VOICE) != 0) {
                 secondaryActionIcon =
-                        resources.getDrawable(R.drawable.sym_action_audiochat_holo_light);
+                        resources.getDrawable(R.drawable.sym_action_audiochat_holo_dark);
                 secondaryActionDescription = resources.getString(R.string.audio_chat);
             }
 

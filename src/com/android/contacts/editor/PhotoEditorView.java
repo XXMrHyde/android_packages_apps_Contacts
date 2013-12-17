@@ -166,7 +166,7 @@ public class PhotoEditorView extends LinearLayout implements Editor {
 
     protected void resetDefault() {
         // Invalid photo, show default "add photo" place-holder
-        mPhotoImageView.setImageResource(R.drawable.ic_contact_picture_holo_light);
+        mPhotoImageView.setImageResource(R.drawable.ic_contact_picture_holo_dark);
         mFrameView.setEnabled(!mReadOnly && isEnabled());
         mHasSetPhoto = false;
         mEntry.setFromTemplate(true);

@@ -15,7 +15,7 @@
 -->
 <resources>
 
-    <style name="DetailActivityTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="DetailActivityTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_menu_back</item>
         <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflow</item>
@@ -26,7 +26,7 @@
         <item name="android:listViewStyle">@style/ListViewStyle</item>
     </style>
 
-    <style name="EditorActivityTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="EditorActivityTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_menu_back</item>
         <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflow</item>
@@ -41,7 +41,7 @@
     <style name="Theme">
     </style>
 
-    <style name="Theme.QuickContact" parent="@android:style/Theme.Holo.Light">
+    <style name="Theme.QuickContact" parent="@android:style/Theme.Holo">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowFrame">@null</item>
@@ -53,7 +53,7 @@
         <item name="android:listViewStyle">@style/ListViewStyle</item>
     </style>
 
-    <style name="PeopleTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="PeopleTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_menu_back</item>
         <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflow</item>
@@ -91,7 +91,7 @@
         <item name="list_item_header_text_indent">8dip</item>
         <item name="contact_browser_list_padding_left">16dip</item>
         <item name="contact_browser_list_padding_right">0dip</item>
-        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="contact_browser_background">@drawable/background_holo_dark</item>
         <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
         <item name="list_item_contacts_count_text_size">12sp</item>
         <!-- Favorites -->
@@ -102,21 +102,21 @@
         <item name="android:src">@drawable/ic_overflow_menu</item>
     </style>
 
-    <style name="ContactsActionBarStyle" parent="@android:Widget.Holo.Light.ActionBar">
+    <style name="ContactsActionBarStyle" parent="@android:Widget.Holo.ActionBar">
         <item name="android:background">@drawable/action_bar_tab</item>
         <item name="android:backgroundSplit">@drawable/action_bar_tab</item>
         <item name="android:backgroundStacked">@drawable/action_bar_tab</item>
         <item name="android:displayOptions"></item>
     </style>
 
-    <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.Holo.Light.Spinner">
+    <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.Holo.Spinner">
         <item name="android:background">@drawable/ab_dropdown_navigation_item_background</item>
     </style>
 
-    <style name="ContactsActionBarTheme" parent="@android:style/Theme.Holo.Light">
-        <item name="android:textColorHint">#CCCCCC</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+    <style name="ContactsActionBarTheme" parent="@android:style/Theme.Holo">
+        <item name="android:textColorHint">#333333</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
     </style>
 
@@ -138,25 +138,25 @@
     <style name="JoinContactActivityTheme" parent="ContactPickerTheme" >
     </style>
 
-    <style name="ContactsPreferencesTheme" parent="@android:Theme.Holo.Light">
+    <style name="ContactsPreferencesTheme" parent="@android:Theme.Holo">
         <item name="android:listViewStyle">@style/ListViewStyle</item>
     </style>
 
-    <style name="ContactListFilterTheme" parent="@android:Theme.Holo.Light">
+    <style name="ContactListFilterTheme" parent="@android:Theme.Holo">
         <item name="android:listViewStyle">@style/ListViewStyle</item>
     </style>
 
     <style name="NonPhoneActivityTheme" parent="@android:Theme.Translucent.NoTitleBar">
     </style>
 
-    <style name="NonPhoneDialogTheme" parent="@android:Theme.Holo.Light.Dialog">
+    <style name="NonPhoneDialogTheme" parent="@android:Theme.Holo.Dialog">
     </style>
 
-    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog.MinWidth">
+    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Holo.Dialog.MinWidth">
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth">
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
         <item name="android:windowCloseOnTouchOutside">true</item>
         <item name="android:textColorPrimary">@color/primary_text_color</item>
         <item name="android:textColorSecondary">@color/secondary_text_color</item>
@@ -164,14 +164,14 @@
     </style>
 
     <style name="SectionDivider">
-        <item name="android:background">#7e7e87</item>
+        <item name="android:background">#818178</item>
         <item name="android:layout_height">1dip</item>
         <item name="android:layout_width">match_parent</item>
     </style>
 
     <style name="ContactDetailItemType">
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
         <item name="android:singleLine">true</item>
         <item name="android:ellipsize">marquee</item>
         <item name="android:layout_gravity">center_vertical</item>
@@ -214,7 +214,7 @@
         <item name="android:background">@color/quickcontact_tab_indicator</item>
     </style>
 
-    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Holo.Light">
+    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Holo">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowContentOverlay">@null</item>
