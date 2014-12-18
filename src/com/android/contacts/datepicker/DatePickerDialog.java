@@ -105,8 +105,7 @@ public class DatePickerDialog extends AlertDialog implements OnClickListener,
             int monthOfYear,
             int dayOfMonth,
             boolean yearOptional) {
-        // Don't pass a theme id. Instead use the default alert dialog theme.
-        this(context, /* themeId = */ -1, callBack, year, monthOfYear, dayOfMonth,
+        this(context, R.style.ContactsAlertDialogTheme, callBack, year, monthOfYear, dayOfMonth,
                 yearOptional);
     }
 

@@ -441,7 +441,7 @@ public abstract class LabeledEditorView extends LinearLayout implements Editor, 
      * no empty text is allowed in any custom label.
      */
     private Dialog createCustomDialog() {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getContext(), R.style.ContactsAlertDialogTheme);
         final LayoutInflater layoutInflater = LayoutInflater.from(builder.getContext());
         builder.setTitle(R.string.customLabelPickerTitle);
 
