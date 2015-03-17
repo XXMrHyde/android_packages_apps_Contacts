@@ -64,23 +64,4 @@
              android:ellipsize="end" />
 
     </LinearLayout>
-
-<<<<<<< HEAD:res/layout/editor_account_selector.xml
 </LinearLayout>
-=======
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dip"
-        android:layout_marginStart="10dip">
-
-        <ImageView
-             android:id="@+id/account_icon"
-             android:layout_width="32dip"
-             android:layout_height="32dip"
-             android:layout_gravity="center_vertical" />
-
-    </FrameLayout>
-
-</LinearLayout>
->>>>>>> 3603a06... Contacts/Dialer/InCallUI: Dark theme, (2/7)::res/layout/editor_account_header_with_dropdown.xml
