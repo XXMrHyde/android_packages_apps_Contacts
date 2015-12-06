@@ -14,7 +14,11 @@
      limitations under the License.
 -->
 <resources>
+    <color name="white">#ffffffff</color>
+    <color name="darkkat_blue_grey">#ff1b1f23</color>
+    <color name="darkkat_blue_blue_grey">#ff182C37</color>
+
     <!-- Color of cards background -->
-    <color name="card_background_color">#60000000</color>
+    <color name="card_background_color">@color/darkkat_blue_blue_grey</color>
 
 </resources>

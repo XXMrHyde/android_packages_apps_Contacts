@@ -17,14 +17,14 @@
 
     <color name="quickcontact_name_detail_background">#66000000</color>
     <color name="quickcontact_entry_sub_header_text_color">#b3ffffff</color>
-    <color name="quickcontact_entry_header_text_color">#ffffff</color>
+    <color name="quickcontact_entry_header_text_color">@color/white</color>
 
     <color name="background_social_updates">#ff111111</color>
 
     <!-- TODO: remove these colors once we delete the group code (b/16522929) -->
     <color name="action_bar_background">#0288d1</color>
     <color name="action_bar_background_highlight">#cecece</color>
-    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="action_bar_button_text_color">@color/white</color>
 
     <color name="actionbar_background_color">@color/primary_color</color>
     <color name="actionbar_background_color_dark">@color/primary_color_dark</color>
@@ -37,7 +37,7 @@
     <color name="primary_color">#0288d1</color>
 
     <!-- Color of the selected tab underline -->
-    <color name="contacts_accent_color">#FFFFFF</color>
+    <color name="contacts_accent_color">@color/white</color>
 
     <color name="floating_action_button_icon_color">@color/contacts_accent_color</color>
 
@@ -45,23 +45,23 @@
     <color name="divider_line_color_light">#1fffffff</color>
 
     <!-- Color of the text on an ExpandingEntryCard button -->
-    <color name="expanding_entry_card_button_text_color">@android:color/white</color>
+    <color name="expanding_entry_card_button_text_color">@color/white</color>
 
     <!-- Background color for an ExpandingEntryCard -->
-    <color name="expanding_entry_card_background_color">@*android:color/darkkat_blue_grey</color>
+    <color name="expanding_entry_card_background_color">@color/darkkat_blue_grey</color>
 
     <!-- Color of the margin for cards -->
-    <color name="card_margin_color">@*android:color/darkkat_blue_grey</color>
+    <color name="card_margin_color">@color/darkkat_blue_grey</color>
 
-    <color name="call_arrow_green">#2aad6f</color>
-    <color name="call_arrow_red">#ff2e58</color>
+    <color name="call_arrow_green">#00c853</color>
+    <color name="call_arrow_red">#f44336</color>
 
     <!-- Background color of pinned header items. -->
     <color name="list_item_pinned_header_color">@color/background_primary</color>
 
-    <!-- Color of the mime-type icons inside the editor. 50% black. -->
-    <color name="editor_icon_color">#7f7f7f</color>
+    <!-- Color of the mime-type icons inside the editor. white. -->
+    <color name="editor_icon_color">@color/white</color>
 
     <!-- Color of disabled text and unfocused hint text inside the contact editor. -->
-    <color name="editor_disabled_text_color">#40ffffff</color>
+    <color name="editor_disabled_text_color">#4dffffff</color>
 </resources>
